@@ -1,0 +1,130 @@
+
+State Machine - |bitcoin_hash|state
+Name state.WRITE state.WAIT_2 state.WAIT_1 state.PHASE_3 state.PHASE_2 state.PHASE_1 state.LOAD state.IDLE 
+state.IDLE 0 0 0 0 0 0 0 0 
+state.LOAD 0 0 0 0 0 0 1 1 
+state.PHASE_1 0 0 0 0 0 1 0 1 
+state.PHASE_2 0 0 0 0 1 0 0 1 
+state.PHASE_3 0 0 0 1 0 0 0 1 
+state.WAIT_1 0 0 1 0 0 0 0 1 
+state.WAIT_2 0 1 0 0 0 0 0 1 
+state.WRITE 1 0 0 0 0 0 0 1 
+
+State Machine - |bitcoin_hash|simplified_sha256:gblock[15].gsha|state
+Name state.WRITE state.COMPUTE state.LOAD state.IDLE 
+state.IDLE 0 0 0 0 
+state.LOAD 0 0 1 1 
+state.COMPUTE 0 1 0 1 
+state.WRITE 1 0 0 1 
+
+State Machine - |bitcoin_hash|simplified_sha256:gblock[14].gsha|state
+Name state.WRITE state.COMPUTE state.LOAD state.IDLE 
+state.IDLE 0 0 0 0 
+state.LOAD 0 0 1 1 
+state.COMPUTE 0 1 0 1 
+state.WRITE 1 0 0 1 
+
+State Machine - |bitcoin_hash|simplified_sha256:gblock[13].gsha|state
+Name state.WRITE state.COMPUTE state.LOAD state.IDLE 
+state.IDLE 0 0 0 0 
+state.LOAD 0 0 1 1 
+state.COMPUTE 0 1 0 1 
+state.WRITE 1 0 0 1 
+
+State Machine - |bitcoin_hash|simplified_sha256:gblock[12].gsha|state
+Name state.WRITE state.COMPUTE state.LOAD state.IDLE 
+state.IDLE 0 0 0 0 
+state.LOAD 0 0 1 1 
+state.COMPUTE 0 1 0 1 
+state.WRITE 1 0 0 1 
+
+State Machine - |bitcoin_hash|simplified_sha256:gblock[11].gsha|state
+Name state.WRITE state.COMPUTE state.LOAD state.IDLE 
+state.IDLE 0 0 0 0 
+state.LOAD 0 0 1 1 
+state.COMPUTE 0 1 0 1 
+state.WRITE 1 0 0 1 
+
+State Machine - |bitcoin_hash|simplified_sha256:gblock[10].gsha|state
+Name state.WRITE state.COMPUTE state.LOAD state.IDLE 
+state.IDLE 0 0 0 0 
+state.LOAD 0 0 1 1 
+state.COMPUTE 0 1 0 1 
+state.WRITE 1 0 0 1 
+
+State Machine - |bitcoin_hash|simplified_sha256:gblock[9].gsha|state
+Name state.WRITE state.COMPUTE state.LOAD state.IDLE 
+state.IDLE 0 0 0 0 
+state.LOAD 0 0 1 1 
+state.COMPUTE 0 1 0 1 
+state.WRITE 1 0 0 1 
+
+State Machine - |bitcoin_hash|simplified_sha256:gblock[8].gsha|state
+Name state.WRITE state.COMPUTE state.LOAD state.IDLE 
+state.IDLE 0 0 0 0 
+state.LOAD 0 0 1 1 
+state.COMPUTE 0 1 0 1 
+state.WRITE 1 0 0 1 
+
+State Machine - |bitcoin_hash|simplified_sha256:gblock[7].gsha|state
+Name state.WRITE state.COMPUTE state.LOAD state.IDLE 
+state.IDLE 0 0 0 0 
+state.LOAD 0 0 1 1 
+state.COMPUTE 0 1 0 1 
+state.WRITE 1 0 0 1 
+
+State Machine - |bitcoin_hash|simplified_sha256:gblock[6].gsha|state
+Name state.WRITE state.COMPUTE state.LOAD state.IDLE 
+state.IDLE 0 0 0 0 
+state.LOAD 0 0 1 1 
+state.COMPUTE 0 1 0 1 
+state.WRITE 1 0 0 1 
+
+State Machine - |bitcoin_hash|simplified_sha256:gblock[5].gsha|state
+Name state.WRITE state.COMPUTE state.LOAD state.IDLE 
+state.IDLE 0 0 0 0 
+state.LOAD 0 0 1 1 
+state.COMPUTE 0 1 0 1 
+state.WRITE 1 0 0 1 
+
+State Machine - |bitcoin_hash|simplified_sha256:gblock[4].gsha|state
+Name state.WRITE state.COMPUTE state.LOAD state.IDLE 
+state.IDLE 0 0 0 0 
+state.LOAD 0 0 1 1 
+state.COMPUTE 0 1 0 1 
+state.WRITE 1 0 0 1 
+
+State Machine - |bitcoin_hash|simplified_sha256:gblock[3].gsha|state
+Name state.WRITE state.COMPUTE state.LOAD state.IDLE 
+state.IDLE 0 0 0 0 
+state.LOAD 0 0 1 1 
+state.COMPUTE 0 1 0 1 
+state.WRITE 1 0 0 1 
+
+State Machine - |bitcoin_hash|simplified_sha256:gblock[2].gsha|state
+Name state.WRITE state.COMPUTE state.LOAD state.IDLE 
+state.IDLE 0 0 0 0 
+state.LOAD 0 0 1 1 
+state.COMPUTE 0 1 0 1 
+state.WRITE 1 0 0 1 
+
+State Machine - |bitcoin_hash|simplified_sha256:gblock[1].gsha|state
+Name state.WRITE state.COMPUTE state.LOAD state.IDLE 
+state.IDLE 0 0 0 0 
+state.LOAD 0 0 1 1 
+state.COMPUTE 0 1 0 1 
+state.WRITE 1 0 0 1 
+
+State Machine - |bitcoin_hash|simplified_sha256:gblock[0].gsha|state
+Name state.WRITE state.COMPUTE state.LOAD state.IDLE 
+state.IDLE 0 0 0 0 
+state.LOAD 0 0 1 1 
+state.COMPUTE 0 1 0 1 
+state.WRITE 1 0 0 1 
+
+State Machine - |bitcoin_hash|simplified_sha256:insha|state
+Name state.WRITE state.COMPUTE state.LOAD state.IDLE 
+state.IDLE 0 0 0 0 
+state.LOAD 0 0 1 1 
+state.COMPUTE 0 1 0 1 
+state.WRITE 1 0 0 1 

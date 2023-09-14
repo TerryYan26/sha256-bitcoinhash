@@ -1,0 +1,112 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+!s11f vlog 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/Users/16262/Downloads/Final_Project (6)/simplified_sha256
+T_opt
+!s110 1694643885
+V=U0onE50E9?nDWi?z[TnQ1
+04 15 4 work tb_bitcoin_hash fast 0
+=1-088fc32df13a-650236ad-2e8-a8c
+!s124 OEM10U19 
+Z2 o-quiet -auto_acc_if_foreign -work work +acc
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;2021.2;73
+R1
+T_opt1
+!s110 1694639351
+V6Y4V97l2K;:zE:DEcHaLh3
+04 17 4 work simplified_sha256 fast 0
+=1-088fc32df13a-650224f7-1ec-5818
+!s124 OEM10U1 
+R2
+R3
+n@_opt1
+R4
+R1
+vbitcoin_hash
+Z5 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z6 !s110 1694724300
+!i10b 1
+!s100 hOiS@S3aYU6dhQM9[ga762
+Im=leo2h6ENG>a56GR`D?L0
+S1
+Z7 dC:/Users/16262/Downloads/Final_Project (6)/bitcoin_hash
+w1694639209
+8C:/Users/16262/Downloads/Final_Project (6)/bitcoin_hash/bitcoin_hash.sv
+FC:/Users/16262/Downloads/Final_Project (6)/bitcoin_hash/bitcoin_hash.sv
+!i122 59
+L0 1 183
+Z8 VDg1SIo80bB@j0V0VzS_@n1
+Z9 OL;L;2021.2;73
+r1
+!s85 0
+31
+Z10 !s108 1694724300.000000
+!s107 C:/Users/16262/Downloads/Final_Project (6)/bitcoin_hash/bitcoin_hash.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/16262/Downloads/Final_Project (6)/bitcoin_hash/bitcoin_hash.sv|
+!i113 0
+Z11 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+vsimplified_sha256
+R5
+R6
+!i10b 1
+!s100 j<aWTgXQ<PBh3DSne@7?_2
+IL39:RSz52`ETgkh7PfQU61
+S1
+R7
+w1694643872
+8C:/Users/16262/Downloads/Final_Project (6)/bitcoin_hash/simplified_sha256.sv
+FC:/Users/16262/Downloads/Final_Project (6)/bitcoin_hash/simplified_sha256.sv
+!i122 61
+L0 1 336
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/16262/Downloads/Final_Project (6)/bitcoin_hash/simplified_sha256.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/16262/Downloads/Final_Project (6)/bitcoin_hash/simplified_sha256.sv|
+!i113 0
+R11
+R3
+vtb_bitcoin_hash
+R5
+R6
+!i10b 1
+!s100 RS7MYioZZ1=^MoE4YDhTZ1
+IKVeG9`Y1DoDGliZc_n9A30
+S1
+R7
+w1575108570
+8C:/Users/16262/Downloads/Final_Project (6)/bitcoin_hash/tb_bitcoin_hash.sv
+FC:/Users/16262/Downloads/Final_Project (6)/bitcoin_hash/tb_bitcoin_hash.sv
+!i122 60
+L0 1 355
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/16262/Downloads/Final_Project (6)/bitcoin_hash/tb_bitcoin_hash.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/16262/Downloads/Final_Project (6)/bitcoin_hash/tb_bitcoin_hash.sv|
+!i113 0
+R11
+R3

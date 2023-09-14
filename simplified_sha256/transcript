@@ -1,0 +1,120 @@
+# Compile of simplified_sha256.sv was successful.
+# Compile of tb_simplified_sha256.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.tb_simplified_sha256
+# vsim -voptargs="+acc" work.tb_simplified_sha256 
+# Start time: 15:54:16 on Sep 13,2023
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.tb_simplified_sha256(fast)
+# Loading work.simplified_sha256(fast)
+run -all
+# --------
+# MESSAGE:
+# --------
+# 01234567
+# 02468ace
+# 048d159c
+# 091a2b38
+# 12345670
+# 2468ace0
+# 48d159c0
+# 91a2b380
+# 23456701
+# 468ace02
+# 8d159c04
+# 1a2b3809
+# 34567012
+# 68ace024
+# d159c048
+# a2b38091
+# 45670123
+# 8ace0246
+# 159c048d
+# 00000000
+# ***************************
+# 
+# ---------------------
+# COMPARE HASH RESULTS:
+# ---------------------
+# Correct H[0] = bdd2fbd9	Your H[0] = bdd2fbd9
+# Correct H[1] = 42623974	Your H[1] = 42623974
+# Correct H[2] = bf129635	Your H[2] = bf129635
+# Correct H[3] = 937c5107	Your H[3] = 937c5107
+# Correct H[4] = f09b6e9e	Your H[4] = f09b6e9e
+# Correct H[5] = 708eb28b	Your H[5] = 708eb28b
+# Correct H[6] = 0318d121	Your H[6] = 0318d121
+# Correct H[7] = 85eca921	Your H[7] = 85eca921
+# ***************************
+# 
+# CONGRATULATIONS! All your hash results are correct!
+# 
+# Total number of cycles:         188
+# 
+# 
+# ***************************
+# 
+# ** Note: $stop    : C:/Users/16262/Downloads/Final_Project (6)/simplified_sha256/tb_simplified_sha256.sv(262)
+#    Time: 3810 ns  Iteration: 2  Instance: /tb_simplified_sha256
+# Break in Module tb_simplified_sha256 at C:/Users/16262/Downloads/Final_Project (6)/simplified_sha256/tb_simplified_sha256.sv line 262
+add wave -position insertpoint sim:/tb_simplified_sha256/*
+add wave -position insertpoint sim:/tb_simplified_sha256/simplified_sha256_inst/*
+add wave -position insertpoint sim:/tb_simplified_sha256/*
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.tb_simplified_sha256(fast)
+# Loading work.simplified_sha256(fast)
+run -all
+# --------
+# MESSAGE:
+# --------
+# 01234567
+# 02468ace
+# 048d159c
+# 091a2b38
+# 12345670
+# 2468ace0
+# 48d159c0
+# 91a2b380
+# 23456701
+# 468ace02
+# 8d159c04
+# 1a2b3809
+# 34567012
+# 68ace024
+# d159c048
+# a2b38091
+# 45670123
+# 8ace0246
+# 159c048d
+# 00000000
+# ***************************
+# 
+# ---------------------
+# COMPARE HASH RESULTS:
+# ---------------------
+# Correct H[0] = bdd2fbd9	Your H[0] = bdd2fbd9
+# Correct H[1] = 42623974	Your H[1] = 42623974
+# Correct H[2] = bf129635	Your H[2] = bf129635
+# Correct H[3] = 937c5107	Your H[3] = 937c5107
+# Correct H[4] = f09b6e9e	Your H[4] = f09b6e9e
+# Correct H[5] = 708eb28b	Your H[5] = 708eb28b
+# Correct H[6] = 0318d121	Your H[6] = 0318d121
+# Correct H[7] = 85eca921	Your H[7] = 85eca921
+# ***************************
+# 
+# CONGRATULATIONS! All your hash results are correct!
+# 
+# Total number of cycles:         188
+# 
+# 
+# ***************************
+# 
+# ** Note: $stop    : C:/Users/16262/Downloads/Final_Project (6)/simplified_sha256/tb_simplified_sha256.sv(262)
+#    Time: 3810 ns  Iteration: 2  Instance: /tb_simplified_sha256
+# Break in Module tb_simplified_sha256 at C:/Users/16262/Downloads/Final_Project (6)/simplified_sha256/tb_simplified_sha256.sv line 262
+quit -sim
+# End time: 13:44:49 on Sep 14,2023, Elapsed time: 21:50:33
+# Errors: 0, Warnings: 1
+project open {C:/Users/16262/Downloads/Final_Project (6)/bitcoin_hash/bitcoin_hash}

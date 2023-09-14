@@ -1,0 +1,25 @@
+{C:/Users/16262/Downloads/Final_Project (6)/bitcoin_hash/simplified_sha256.sv} {2 {vlog -work work -vopt -sv -stats=none {C:/Users/16262/Downloads/Final_Project (6)/bitcoin_hash/simplified_sha256.sv}
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module simplified_sha256
+** Warning: C:/Users/16262/Downloads/Final_Project (6)/bitcoin_hash/simplified_sha256.sv(3): (vlog-13314) Defaulting port 'k' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/16262/Downloads/Final_Project (6)/bitcoin_hash/simplified_sha256.sv(4): (vlog-13314) Defaulting port 'message' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/16262/Downloads/Final_Project (6)/bitcoin_hash/simplified_sha256.sv(5): (vlog-13314) Defaulting port 'hash' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	simplified_sha256
+
+} {} {}} {C:/Users/16262/Downloads/Final_Project (6)/bitcoin_hash/bitcoin_hash.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/16262/Downloads/Final_Project (6)/bitcoin_hash/bitcoin_hash.sv}
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module bitcoin_hash
+
+Top level modules:
+	bitcoin_hash
+
+} {} {}} {C:/Users/16262/Downloads/Final_Project (6)/bitcoin_hash/tb_bitcoin_hash.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/16262/Downloads/Final_Project (6)/bitcoin_hash/tb_bitcoin_hash.sv}
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module tb_bitcoin_hash
+
+Top level modules:
+	tb_bitcoin_hash
+
+} {} {}}
